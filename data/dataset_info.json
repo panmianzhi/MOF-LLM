@@ -1,0 +1,38 @@
+{
+    "mof_train": {
+      "file_name": "sft-train.json",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+      }
+    },
+    "mof_val": {
+      "file_name": "sft-val.json",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+      }
+    },
+    "mof_test": {
+      "file_name": "sft-test.json",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+      }
+    },
+    "mof_infer_demo": {
+      "file_name": "infer_demo.json",
+      "formatting": "alpaca",
+      "columns": {
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+      }
+    }
+  }

@@ -6,7 +6,7 @@
 The MOF structure dataset is from [MOFFlow](https://github.com/nayoung10/MOFFlow). Our processed pre-training, sft and rl prompts can be download from [Google Drive](https://drive.google.com/drive/folders/1pmQxoHW6gQfAzSwrZmOULOfvv8tSpK4a?usp=drive_link).
 
 ## Inference code & Model checkpoint
-```
+```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
@@ -30,7 +30,7 @@ print(generated_text)
 ```
 
 We recommend to use vllm for large-scale inference. Below is an inference script on our demo data
-```
+```bash
 cd scripts
 bash vllm_infer.sh
 ```
@@ -40,7 +40,7 @@ To recover the all-atom MOF structure, please refer to `evaluate.prompt_to_struc
 Code for calculating the rmsd and match rate is in `evaluate.py`.
 
 ## Citation
-```
+```bibtex
 @misc{pan2026enhancingspatialreasoninglarge,
       title={Enhancing Spatial Reasoning in Large Language Models for Metal-Organic Frameworks Structure Prediction}, 
       author={Mianzhi Pan and JianFei Li and Peishuo Liu and Botian Wang and Yawen Ouyang and Yiming Rong and Hao Zhou and Jianbing Zhang},
