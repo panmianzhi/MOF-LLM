@@ -130,10 +130,13 @@ def test_prompt_to_structure():
 
 
 def calculate_rms_dist(
-    pred_struct: Structure,
-    gt_struct: Structure,
+    pred_struct: Structure | None,
+    gt_struct: Structure | None,
     matcher: StructureMatcher,
 ):
+    if pred_struct is None or gt_struct is None:
+        return None
+
     try:
         rms_dist = matcher.get_rms_dist(gt_struct, pred_struct)
         rms_dist = None if rms_dist is None else rms_dist[0]
@@ -172,7 +175,8 @@ def main(
                 gt_structs.append(gt_struct)
             except Exception as e:
                 print(f"Skip mof {mof_id}: {e}")
-                continue
+                pred_structs.append(None)
+                gt_structs.append(None)
 
 
     p_results = p_map(
