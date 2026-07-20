@@ -36,8 +36,10 @@ bash vllm_infer.sh
 ```
 To recover the all-atom MOF structure, please refer to `evaluate.prompt_to_structure` method.
 
+Note: `evaluate.prompt_to_structure` requires the local structure of each building block as an input parameter. These pre-computed local structures can be obtained from the original [MOFFlow](https://github.com/nayoung10/MOFFlow) repository. If the local structures are not available, you can follow the strategy used in [MOFFlow-2](https://github.com/nayoung10/MOFFlow-2): use template structures from the database for metal nodes and generate organic linker structures with RDKit.
+
 ## Evaluation
-Code for calculating the rmsd and match rate is in `evaluate.py`. The evaluation script requires pre-computed local structures for each building block, which can be obtained from the original [MOFFlow](https://github.com/nayoung10/MOFFlow) repository. If the local structures are not available, you can follow the strategy used in [MOFFlow-2](https://github.com/nayoung10/MOFFlow-2): use template structures from the database for metal nodes and generate organic linker structures with RDKit.
+Code for calculating the rmsd and match rate is in `evaluate.py`.
 
 ## Citation
 ```bibtex
