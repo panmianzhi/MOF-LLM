@@ -2,6 +2,8 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2601.09285-b31b1b.svg)](https://arxiv.org/abs/2601.09285)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-MOF--LLM-yellow.svg)](https://huggingface.co/MianzhiPan/MOF-LLM)
 
+![MOF-LLM poster](poster.png)
+
 ## Data
 The MOF structure dataset is from [MOFFlow](https://github.com/nayoung10/MOFFlow). Our processed pre-training, sft and rl prompts can be download from [Google Drive](https://drive.google.com/drive/folders/1pmQxoHW6gQfAzSwrZmOULOfvv8tSpK4a?usp=drive_link).
 
