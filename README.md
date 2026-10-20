@@ -54,13 +54,11 @@ Code for calculating the rmsd and match rate is in `evaluate.py`.
 
 ## Citation
 ```bibtex
-@misc{pan2026enhancingspatialreasoninglarge,
-      title={Enhancing Spatial Reasoning in Large Language Models for Metal-Organic Frameworks Structure Prediction}, 
-      author={Mianzhi Pan and JianFei Li and Peishuo Liu and Botian Wang and Yawen Ouyang and Yiming Rong and Hao Zhou and Jianbing Zhang},
-      year={2026},
-      eprint={2601.09285},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2601.09285}, 
+@inproceedings{pan2026enhancing,
+  title={Enhancing spatial reasoning in large language models for metal-organic frameworks structure prediction},
+  author={Pan, Mianzhi and Li, Jianfei and Liu, Peishuo and Wang, Botian and Ouyang, Yawen and Rong, Yiming and Ma, Wei-Ying and Zhou, Hao and Zhang, Jianbing},
+  booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
+  pages={11750--11761},
+  year={2026}
 }
 ```
