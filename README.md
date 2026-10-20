@@ -1,6 +1,11 @@
-# Enhancing Spatial Reasoning in Large Language Models for Metal-Organic Frameworks Structure Prediction [KDD'26]
+<h1 align="center">MOF-LLM</h1>
+
+<p align="center">An LLM-based Metal-organic Framework (MOF) structure predictor.</p>
+
+<p align="center">
 [![arXiv](https://img.shields.io/badge/arXiv-2601.09285-b31b1b.svg)](https://arxiv.org/abs/2601.09285)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-MOF--LLM-yellow.svg)](https://huggingface.co/MianzhiPan/MOF-LLM)
+</p>
 
 ![MOF-LLM poster](poster.png)
 
