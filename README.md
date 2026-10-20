@@ -2,8 +2,14 @@
 
 <p align="center">An LLM-based Metal-organic Framework (MOF) structure predictor.</p>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.09285-b31b1b.svg)](https://arxiv.org/abs/2601.09285)
-[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-MOF--LLM-yellow.svg)](https://huggingface.co/MianzhiPan/MOF-LLM)
+<p align="center">
+  <a href="https://arxiv.org/abs/2601.09285">
+    <img src="https://img.shields.io/badge/arXiv-2601.09285-b31b1b.svg" alt="arXiv">
+  </a>
+  <a href="https://huggingface.co/MianzhiPan/MOF-LLM">
+    <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-MOF--LLM-yellow.svg" alt="Hugging Face">
+  </a>
+</p>
 
 ![MOF-LLM poster](poster.png)
 
